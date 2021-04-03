@@ -5,8 +5,6 @@
 #define MOISTURE_SENSOR_INPUT A0
 #define PUMP_OUTPUT 2
 
-bool toggled = false;
-
 void setup() {
   // put your setup code here, to run once:
   pinMode(PUMP_OUTPUT, OUTPUT);
